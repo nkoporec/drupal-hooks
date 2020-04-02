@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_entity_revision_create</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_entity_revision_create().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_revision_create(\\Drupal\\Core\\Entity\\EntityInterface \$new_revision, \\Drupal\\Core\\Entity\\EntityInterface \$entity, \$keep_untranslatable_fields) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

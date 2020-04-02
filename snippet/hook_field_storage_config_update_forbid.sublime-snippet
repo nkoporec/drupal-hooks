@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_field_storage_config_update_forbid</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_field_storage_config_update_forbid().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_field_storage_config_update_forbid(\\Drupal\\field\\FieldStorageConfigInterface \$field_storage, \\Drupal\\field\\FieldStorageConfigInterface \$prior_field_storage) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

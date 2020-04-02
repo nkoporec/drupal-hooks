@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_entity_access</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_entity_access().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_access(\\Drupal\\Core\\Entity\\EntityInterface \$entity, \$operation, \\Drupal\\Core\\Session\\AccountInterface \$account) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

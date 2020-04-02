@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_entity_preload</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_entity_preload().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_preload(array \$ids, \$entity_type_id) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

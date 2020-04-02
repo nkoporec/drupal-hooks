@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_entity_storage_load</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_entity_storage_load().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_storage_load(array \$entities, \$entity_type) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

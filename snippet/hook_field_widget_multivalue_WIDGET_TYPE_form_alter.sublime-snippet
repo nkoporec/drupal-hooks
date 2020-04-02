@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_field_widget_multivalue_WIDGET_TYPE_form_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_field_widget_multivalue_WIDGET_TYPE_form_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_field_widget_multivalue_WIDGET_TYPE_form_alter(array &\$elements, \\Drupal\\Core\\Form\\FormStateInterface \$form_state, array \$context) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

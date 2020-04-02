@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_field_formatter_settings_summary_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_field_formatter_settings_summary_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_field_formatter_settings_summary_alter(array &\$summary, array \$context) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

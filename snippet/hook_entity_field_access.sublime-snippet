@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_entity_field_access</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_entity_field_access().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_field_access(\$operation, \\Drupal\\Core\\Field\\FieldDefinitionInterface \$field_definition, \\Drupal\\Core\\Session\\AccountInterface \$account, \\Drupal\\Core\\Field\\FieldItemListInterface \$items = NULL) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_entity_base_field_info</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_entity_base_field_info().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_base_field_info(\\Drupal\\Core\\Entity\\EntityTypeInterface \$entity_type) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

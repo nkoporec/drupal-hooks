@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_element_info_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_element_info_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_element_info_alter(array &\$definitions) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_entity_bundle_delete</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_entity_bundle_delete().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_entity_bundle_delete(\$entity_type_id, \$bundle) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

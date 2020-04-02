@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_field_widget_form_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_field_widget_form_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_field_widget_form_alter(&\$element, \\Drupal\\Core\\Form\\FormStateInterface \$form_state, \$context) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

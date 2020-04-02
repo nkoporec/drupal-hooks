@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_file_validate</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_file_validate().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_file_validate(\\Drupal\\file\\FileInterface \$file) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

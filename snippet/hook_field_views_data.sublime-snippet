@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_field_views_data</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_field_views_data().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_field_views_data(\\Drupal\\field\\FieldStorageConfigInterface \$field_storage) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_field_ui_preconfigured_options_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_field_ui_preconfigured_options_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_field_ui_preconfigured_options_alter(array &\$options, \$field_type) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

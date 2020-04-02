@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_form_BASE_FORM_ID_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_form_BASE_FORM_ID_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_form_BASE_FORM_ID_alter(&\$form, \\Drupal\\Core\\Form\\FormStateInterface \$form_state, \$form_id) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_field_purge_field</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_field_purge_field().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_field_purge_field(\\Drupal\\field\\Entity\\FieldConfig \$field) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>
