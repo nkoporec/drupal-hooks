@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_contextual_links_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_contextual_links_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_contextual_links_alter(array &\$links, \$group, array \$route_parameters) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_cache_flush</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_cache_flush().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_cache_flush() {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

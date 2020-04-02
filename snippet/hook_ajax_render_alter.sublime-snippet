@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_ajax_render_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_ajax_render_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_ajax_render_alter(array &\$data) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

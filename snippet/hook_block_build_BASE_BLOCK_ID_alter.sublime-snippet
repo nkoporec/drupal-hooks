@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_block_build_BASE_BLOCK_ID_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_block_build_BASE_BLOCK_ID_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_block_build_BASE_BLOCK_ID_alter(array &\$build, \\Drupal\\Core\\Block\\BlockPluginInterface \$block) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_ENTITY_TYPE_create_access</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_ENTITY_TYPE_create_access().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_ENTITY_TYPE_create_access(\\Drupal\\Core\\Session\\AccountInterface \$account, array \$context, \$entity_bundle) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

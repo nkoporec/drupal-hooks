@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_data_type_info_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_data_type_info_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_data_type_info_alter(&\$data_types) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

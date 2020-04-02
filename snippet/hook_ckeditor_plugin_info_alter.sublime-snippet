@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_ckeditor_plugin_info_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_ckeditor_plugin_info_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_ckeditor_plugin_info_alter(array &\$plugins) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_display_variant_plugin_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_display_variant_plugin_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_display_variant_plugin_alter(array &\$definitions) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

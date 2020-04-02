@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_ENTITY_TYPE_translation_delete</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_ENTITY_TYPE_translation_delete().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_ENTITY_TYPE_translation_delete(\\Drupal\\Core\\Entity\\EntityInterface \$translation) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

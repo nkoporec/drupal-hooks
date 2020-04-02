@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_comment_links_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_comment_links_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_comment_links_alter(array &\$links, CommentInterface \$entity, array &\$context) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

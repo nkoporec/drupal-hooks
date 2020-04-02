@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_block_build_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_block_build_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_block_build_alter(array &\$build, \\Drupal\\Core\\Block\\BlockPluginInterface \$block) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

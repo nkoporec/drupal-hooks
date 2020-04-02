@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_editor_xss_filter_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_editor_xss_filter_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_editor_xss_filter_alter(&\$editor_xss_filter_class, FilterFormatInterface \$format, FilterFormatInterface \$original_format = NULL) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

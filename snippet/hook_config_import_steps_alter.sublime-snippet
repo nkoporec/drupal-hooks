@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_config_import_steps_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_config_import_steps_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_config_import_steps_alter(&\$sync_steps, \\Drupal\\Core\\Config\\ConfigImporter \$config_importer) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

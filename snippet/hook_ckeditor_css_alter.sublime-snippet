@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_ckeditor_css_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_ckeditor_css_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_ckeditor_css_alter(array &\$css, Editor \$editor) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_ENTITY_TYPE_view_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_ENTITY_TYPE_view_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_ENTITY_TYPE_view(array &\$build, Drupal\\Core\\Entity\\EntityInterface \$entity, \\Drupal\\Core\\Entity\\Display\\EntityViewDisplayInterface \$display) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_config_translation_info</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_config_translation_info().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_config_translation_info(&\$info) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>
