@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_migrate_prepare_row</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_migrate_prepare_row().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_migrate_prepare_row(Row \$row, MigrateSourceInterface \$source, MigrationInterface \$migration) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

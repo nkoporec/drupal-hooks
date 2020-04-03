@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_transliteration_overrides_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_transliteration_overrides_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_transliteration_overrides_alter(&\$overrides, \$langcode) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

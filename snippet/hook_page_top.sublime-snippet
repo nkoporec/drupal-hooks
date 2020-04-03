@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_page_top</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_page_top().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_page_top(array &\$page_top) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

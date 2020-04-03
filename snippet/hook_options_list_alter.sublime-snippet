@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_options_list_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_options_list_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_options_list_alter(array &\$options, array \$context) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

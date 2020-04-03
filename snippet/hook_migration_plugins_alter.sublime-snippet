@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_migration_plugins_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_migration_plugins_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_migration_plugins_alter(array &\$migrations) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

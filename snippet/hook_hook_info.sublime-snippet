@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_hook_info</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_hook_info().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_hook_info() {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

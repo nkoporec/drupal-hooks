@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_token_info_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_token_info_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_token_info_alter(&\$data) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_hal_relation_uri_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_hal_relation_uri_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_hal_relation_uri_alter(&\$uri, \$context = []) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_tokens</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_tokens().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_tokens(\$type, \$tokens, array \$data, array \$options, \\Drupal\\Core\\Render\\BubbleableMetadata \$bubbleable_metadata) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

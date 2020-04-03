@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_query_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_query_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_query_alter(\\Drupal\\Core\\Database\\Query\\AlterableInterface \\$$query) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

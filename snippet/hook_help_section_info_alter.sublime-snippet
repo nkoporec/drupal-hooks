@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_help_section_info_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_help_section_info_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_help_section_info_alter(array &\$info) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

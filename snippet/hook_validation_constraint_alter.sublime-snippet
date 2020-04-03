@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_validation_constraint_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_validation_constraint_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_validation_constraint_alter(array &\$definitions) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

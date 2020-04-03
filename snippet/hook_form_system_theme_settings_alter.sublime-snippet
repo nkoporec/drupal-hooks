@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_form_system_theme_settings_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_form_system_theme_settings_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_form_system_theme_settings_alter(&\$form, \\Drupal\\Core\\Form\\FormStateInterface \$form_state) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

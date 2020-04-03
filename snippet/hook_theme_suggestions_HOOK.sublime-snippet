@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_theme_suggestions_HOOK</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_theme_suggestions_HOOK().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_theme_suggestions_HOOK(array \$variables) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

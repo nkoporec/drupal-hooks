@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_plugin_filter_TYPE__CONSUMER_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_plugin_filter_TYPE__CONSUMER_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_plugin_filter_TYPE__CONSUMER_alter(array &\$definitions, array \$extra) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

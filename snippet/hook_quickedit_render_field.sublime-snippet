@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_quickedit_render_field</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_quickedit_render_field().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_quickedit_render_field(\\Drupal\\Core\\Entity\\EntityInterface \$entity, \$field_name, \$view_mode_id, \$langcode) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

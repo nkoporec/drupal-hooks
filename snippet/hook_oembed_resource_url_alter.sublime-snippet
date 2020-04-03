@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_oembed_resource_url_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_oembed_resource_url_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_oembed_resource_url_alter(array &\$parsed_url, \\Drupal\\media\\OEmbed\\Provider \$provider) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

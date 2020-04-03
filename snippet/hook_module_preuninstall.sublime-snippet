@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_module_preuninstall</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_module_preuninstall().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_module_preuninstall(\$module) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

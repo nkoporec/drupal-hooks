@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_update_dependencies</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_update_dependencies().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_update_dependencies() {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

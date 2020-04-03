@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_link_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_link_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_link_alter(&\$variables) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

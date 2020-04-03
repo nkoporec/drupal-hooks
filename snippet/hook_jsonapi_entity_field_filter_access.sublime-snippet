@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_jsonapi_entity_field_filter_access</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_jsonapi_entity_field_filter_access().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_jsonapi_entity_field_filter_access(\\Drupal\\Core\\Field\\FieldDefinitionInterface \$field_definition, \\Drupal\\Core\\Session\\AccountInterface \$account) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

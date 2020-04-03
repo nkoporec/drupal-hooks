@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_post_update_NAME</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_post_update_NAME().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_post_update_NAME(&\$sandbox) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

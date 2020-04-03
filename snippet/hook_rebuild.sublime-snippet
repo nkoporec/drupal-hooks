@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_rebuild</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_rebuild().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_rebuild() {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

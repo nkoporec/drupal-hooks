@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_theme</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_theme().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_theme(\$existing, \$type, \$theme, \$path) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

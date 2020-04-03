@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_user_format_name_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_user_format_name_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_user_format_name_alter(&\$name, AccountInterface \$account) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

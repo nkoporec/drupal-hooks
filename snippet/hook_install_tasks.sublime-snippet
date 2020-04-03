@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_install_tasks</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_install_tasks().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_install_tasks(&\$install_state) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_user_cancel</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_user_cancel().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_user_cancel(\$edit, UserInterface \$account, \$method) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_theme_suggestions_HOOK_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_theme_suggestions_HOOK_alter(array &\$suggestions, array \$variables) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

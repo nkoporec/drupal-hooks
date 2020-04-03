@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_library_info_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_library_info_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_library_info_alter(&\$libraries, \$extension) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

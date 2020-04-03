@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_tokens_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_tokens_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_tokens_alter(array &\$replacements, array \$context, \\Drupal\\Core\\Render\\BubbleableMetadata \$bubbleable_metadata) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

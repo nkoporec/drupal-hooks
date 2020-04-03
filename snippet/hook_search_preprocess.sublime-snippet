@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_search_preprocess</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_search_preprocess().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_search_preprocess(\$text, \$langcode = NULL) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

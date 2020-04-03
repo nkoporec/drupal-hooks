@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_local_tasks_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_local_tasks_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_local_tasks_alter(&\$local_tasks) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_preprocess_HOOK</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_preprocess_HOOK().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_preprocess_HOOK(&\$variables) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

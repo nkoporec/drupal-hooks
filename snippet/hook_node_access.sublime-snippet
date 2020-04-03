@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_node_access</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_node_access().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_node_access(\\Drupal\\node\\NodeInterface \$node, \$op, \\Drupal\\Core\\Session\\AccountInterface \$account) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

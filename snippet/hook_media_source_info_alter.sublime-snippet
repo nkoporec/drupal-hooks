@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_media_source_info_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_media_source_info_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_media_source_info_alter(array &\$sources) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>
