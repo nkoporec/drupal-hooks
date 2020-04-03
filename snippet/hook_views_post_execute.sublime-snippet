@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_views_post_build</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_views_post_build().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_views_post_build(ViewExecutable \$view) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

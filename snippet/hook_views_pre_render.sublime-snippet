@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_views_pre_render</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_views_pre_render().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_views_pre_render(ViewExecutable \$view) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

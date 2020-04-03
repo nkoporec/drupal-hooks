@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_views_analyze</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_views_analyze().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_views_analyze(\\Drupal\\views\\ViewExecutable \\$$view) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

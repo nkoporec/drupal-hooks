@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_views_invalidate_cache</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_views_invalidate_cache().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_views_invalidate_cache() {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

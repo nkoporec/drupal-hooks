@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_views_preview_info_alter</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_views_preview_info_alter().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_views_preview_info_alter(array &\$rows, ViewExecutable \$view) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

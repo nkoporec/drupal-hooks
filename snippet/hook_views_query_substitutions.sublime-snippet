@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_views_query_substitutions</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_views_query_substitutions().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_views_query_substitutions(ViewExecutable \$view) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>

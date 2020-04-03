@@ -10,7 +10,7 @@ This extension adds rich language support for the Drupal 8 and Drupal 9 API to S
 ### GitHub
 
 1. Change to your Sublime Text `Packages/User` directory
-2. Clone repository `git clone https://github.com/flashvnn/Drupal-Completion-ST.git`
+2. Clone repository `git clone https://github.com/nkoporec/drupal-autocomplete.git`
 
 ### Manual installation
 

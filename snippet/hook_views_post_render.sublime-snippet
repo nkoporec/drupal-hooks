@@ -1,0 +1,10 @@
+<snippet>
+  <tabTrigger>hook_views_post_render</tabTrigger>
+  <content><![CDATA[/**
+ * Implements hook_views_post_render().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_views_post_render(ViewExecutable \$view, &\$output, CachePluginBase \$cache) {
+  ${1:/* Your code here */}
+}
+]]></content>
+</snippet>
