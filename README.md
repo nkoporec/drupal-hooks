@@ -2,7 +2,7 @@ Drupal Hooks
 =====================
 ## Description
 
-This extension adds rich language support for the Drupal 8 and Drupal 9 API to Sublime Text.
+This extension adds hook snippet support for the Drupal 8 and Drupal 9 API to Sublime Text.
 
 ## Installation
 
