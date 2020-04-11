@@ -17,7 +17,7 @@ Type “Drupal Autocomplete” and press Enter
 ### GitHub
 
 1. Change to your Sublime Text `Packages/User` directory
-2. Clone repository `git clone https://github.com/nkoporec/drupal-autocomplete.git`
+2. Clone repository `git clone https://github.com/nkoporec/drupal-hooks.git`
 
 ### Manual installation
 
