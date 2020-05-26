@@ -12,7 +12,7 @@ This extension adds hook snippet support for the Drupal 8 and Drupal 9 API to Su
 
 Make sure you already have Package Control installed
 Choose “Install Package” from the Command Palette (Super+Shift+p)
-Type “Drupal Autocomplete” and press Enter
+Type “Drupal Hooks” and press Enter
 
 ### GitHub
 
